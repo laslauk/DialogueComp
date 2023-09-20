@@ -18,23 +18,7 @@
 
 
 
-bool UDialogueWidget::Initialize()
-{
-	if (Super::Initialize())
-	{
 
-		
-
-
-		return true;
-	}
-
-	else
-	{
-		return false;
-	}
-
-}
 
 
  FReply UDialogueWidget::NativeOnMouseButtonDown(const FGeometry& InGeometry, const FPointerEvent& InMouseEvent)

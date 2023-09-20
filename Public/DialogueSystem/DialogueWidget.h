@@ -22,7 +22,7 @@ class LASSEVANIA_API UDialogueWidget : public UUserWidget
 
 public:
 	/* Inherited from UUserWidgetr */
-	virtual bool Initialize() override;
+
 
 	/* Inherited  UUserWidgetr */
 

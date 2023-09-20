@@ -9,7 +9,7 @@ public class Lassevania : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "PaperZD", "GameplayAbilities", 
-			"GameplayTags", "Paper2D", "UMG", "GameplayTasks",  "Engine",
+			"GameplayTags", "Paper2D", "UMG", "GameplayTasks",  "Engine", "EnhancedInput",
             "AIModule" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });

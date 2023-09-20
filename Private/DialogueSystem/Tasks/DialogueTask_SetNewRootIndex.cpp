@@ -27,9 +27,17 @@ EBTNodeResult::Type UDialogueTask_SetNewRootIndex::ExecuteTask(UBehaviorTreeComp
 
 FString UDialogueTask_SetNewRootIndex::GetStaticDescription() const
 {
+
+
+
+
 	return FString::Printf(
-		TEXT("NewRootIndex: %s"),
-		*RootIndexOut.SelectedKeyName.ToString()
+		TEXT("RootIndexOut Key: %s%sNew Index: %s"),
+		*RootIndexOut.SelectedKeyName.ToString(),
+		LINE_TERMINATOR,
+		*FString::FromInt(NewIndex)
 		//*FString::SanitizeFloat(MyFloatValue)
 	);
+
+
 }
